@@ -1,0 +1,15 @@
+002.Laysan_Albatross
+001.Black_footed_Albatross
+019.Gray_Catbird
+003.Sooty_Albatross
+004.Groove_billed_Ani
+005.Crested_Auklet
+007.Parakeet_Auklet
+006.Least_Auklet
+008.Rhinoceros_Auklet
+009.Brewer_Blackbird
+011.Rusty_Blackbird
+010.Red_winged_Blackbird
+117.Clay_colored_Sparrow
+012.Yellow_headed_Blackbird
+013.Bobolink

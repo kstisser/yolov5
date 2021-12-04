@@ -1,0 +1,5 @@
+002.Laysan_Albatross
+001.Black_footed_Albatross
+019.Gray_Catbird
+003.Sooty_Albatross
+004.Groove_billed_Ani

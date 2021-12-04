@@ -1,0 +1,52 @@
+# YOLOv5 🚀 by Ultralytics, GPL-3.0 license
+# COCO 2017 dataset http://cocodataset.org
+# Example usage: python train.py --data coco.yaml
+# parent
+# ├── yolov5
+# └── datasets
+#     └── coco  ← downloads here
+
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: C://Users/fm873/Documents/Classes/CSMachineLearning/ObjectDetectionProject/code/yolov5/myData/birdImages/  # dataset root dir
+train: train.txt  # train images (relative to 'path') 118287 images
+val: train.txt  # train images (relative to 'path') 5000 images
+test: test.txt  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+# Classes
+nc: 34  # number of classes
+names: [001.Black_footed_Albatross,
+002.Laysan_Albatross,
+003.Sooty_Albatross,
+004.Groove_billed_Ani,
+005.Crested_Auklet,
+006.Least_Auklet,
+007.Parakeet_Auklet,
+008.Rhinoceros_Auklet,
+009.Brewer_Blackbird,
+010.Red_winged_Blackbird,
+011.Rusty_Blackbird,
+012.Yellow_headed_Blackbird,
+013.Bobolink,
+014.Indigo_Bunting,
+015.Lazuli_Bunting,
+016.Painted_Bunting,
+017.Cardinal,
+018.Spotted_Catbird,
+019.Gray_Catbird,
+020.Yellow_breasted_Chat,
+021.Eastern_Towhee,
+022.Chuck_will_Widow,
+023.Brandt_Cormorant,
+024.Red_faced_Cormorant,
+025.Pelagic_Cormorant,
+026.Bronzed_Cowbird,
+027.Shiny_Cowbird,
+028.Brown_Creeper,
+029.American_Crow,
+030.Fish_Crow,
+031.Black_billed_Cuckoo,
+032.Mangrove_Cuckoo,
+033.Yellow_billed_Cuckoo,
+034.Gray_crowned_Rosy_Finch]  # class names
+
